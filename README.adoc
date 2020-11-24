@@ -17,6 +17,8 @@ In `wsltty` options select `apprentice` theme:
 
 image::https://user-images.githubusercontent.com/234774/100063282-0914a800-2e42-11eb-81b6-16695728065c.png[]
 
+image::https://user-images.githubusercontent.com/234774/100065132-7aedf100-2e44-11eb-9096-553c180cc412.png[]
+
 
 == Windows Terminal
 
