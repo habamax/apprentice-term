@@ -1,22 +1,26 @@
 = Apprentice colors of your terminal
+:icons: font
+:autofit-option:
+:experimental:
 
-Bring beautiful https://github.com/romainl/apprentice[Apprentice] vim colors to your terminal.
+Bring beautiful https://github.com/romainl/apprentice[Apprentice] vim colors to some terminals.
 
-NOTE: Sadly not for all terminals :)
+"A colorscheme as subtle, gentle and pleasant as its creator isn't."
+-- vimgor, #vim bot about apprentice and its author https://github.com/romainl[Romain Lafourcade]
 
 
 == wsltty
 
 For windows, copy `wsltty/themes/apprentice` to `~/AppData/Roaming/wsltty/themes/` dir.
 
-In wsltty options select `apprentice` theme:
+In `wsltty` options select `apprentice` theme:
 
 image::https://user-images.githubusercontent.com/234774/100063282-0914a800-2e42-11eb-81b6-16695728065c.png[]
 
 
 == Windows Terminal
 
-Open windows terminal and press kbd::[CTRL-,] to edit `settings.json`.
+Open windows terminal and press kbd:[CTRL-,] to edit `settings.json`.
 
 Copy contents of `windows_terminal/apprentice.json` to the `"schemes"` section:
 
