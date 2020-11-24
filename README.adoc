@@ -15,9 +15,10 @@ For windows, copy `wsltty/themes/apprentice` to `~/AppData/Roaming/wsltty/themes
 
 In `wsltty` options select `apprentice` theme:
 
-image::https://user-images.githubusercontent.com/234774/100063282-0914a800-2e42-11eb-81b6-16695728065c.png[]
+image::https://user-images.githubusercontent.com/234774/100065664-1f703300-2e45-11eb-87fb-4fe25f166542.png[]
 
-image::https://user-images.githubusercontent.com/234774/100065132-7aedf100-2e44-11eb-9096-553c180cc412.png[]
+image::https://user-images.githubusercontent.com/234774/100065726-33b43000-2e45-11eb-9bbd-5afb03281869.png[]
+
 
 
 == Windows Terminal
