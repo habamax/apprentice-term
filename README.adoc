@@ -1,0 +1,57 @@
+= Apprentice colors of your terminal
+
+Bring beautiful https://github.com/romainl/apprentice[Apprentice] vim colors to your terminal.
+
+NOTE: Sadly not for all terminals :)
+
+
+== wsltty
+
+For windows, copy `wsltty/themes/apprentice` to `~/AppData/Roaming/wsltty/themes/` dir.
+
+In wsltty options select `apprentice` theme:
+
+image::https://user-images.githubusercontent.com/234774/100063282-0914a800-2e42-11eb-81b6-16695728065c.png[]
+
+
+== Windows Terminal
+
+Open windows terminal and press kbd::[CTRL-,] to edit `settings.json`.
+
+Copy contents of `windows_terminal/apprentice.json` to the `"schemes"` section:
+
+[source,json]
+------------------------------------------------------------------------------
+    "schemes": [
+        {
+            "name" : "Apprentice",
+
+            "cursorColor": "#6c6c6c",
+            "selectionBackground": "#8fafd7",
+
+            ...
+
+        }
+    ],
+
+------------------------------------------------------------------------------
+
+Apply color scheme to your profiles:
+
+[source,json]
+------------------------------------------------------------------------------
+    "profiles":
+    [
+        {
+            "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+            "name": "PowerShell Core",
+            "source": "Windows.Terminal.PowershellCore",
+            "hidden": false,
+            "colorScheme": "Apprentice",
+            ...
+------------------------------------------------------------------------------
+
+
+image::https://user-images.githubusercontent.com/234774/100063502-5e50b980-2e42-11eb-8544-6ec210bc13c5.png[]
+
+image::https://user-images.githubusercontent.com/234774/100063617-8cce9480-2e42-11eb-9160-8710f0cc391a.png[]
